@@ -39,4 +39,4 @@ void help_unsetenv(void)
 
 	write(STDOUT_FILENO, msg, _strlen(msg));
 	msg = "environmental variable.\n\n\tUpon failure, prints a ";
-	
+
